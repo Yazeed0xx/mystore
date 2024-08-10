@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #edc168;
+  /* --primary-color: #a4c3b2; */
+}
+.home {
+  min-height: 60vh;
+  background-color: var(--primary-color);
+  margin-bottom: 10vh;
+  align-items: center;
+  justify-content: center;
+}
+.home .text {
+  max-width: 500px;
+}
+.sectionTwo {
+  justify-content: center;
+}
+.Title {
+  /* position: absolute; */
+  color: #fff !important;
+  padding-left: 10px;
+  font-weight: bold;
+  font-size: 16px !important;
+}
+.icons {
+  align-items: center;
+}
+img {
+  display: block;
+}
+.search {
+  align-items: center;
+}
+.search input {
+  display: block;
+  border: 1px solid var(--primary-color);
+  outline: none;
+  margin-right: 40px !important;
+}
+
+.sectionThree {
+  background-color: #fff7f2;
+  background-color: #fff3e3;
+}
+.box {
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20vh;
+  background-color: #eaf4f4 !important;
+  padding-top: 40px !important;
+  border-radius: 6px;
+}
+/* .box  */
+.box img {
+  width: 230px;
+  height: 230px;
+  margin-bottom: 10px;
+}
+.box p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  /* max-width: ; */
+}
+.btnLogout {
+  color: var(--primary-color);
+  padding: 5px 8px;
+}
+.btnLogout:hover {
+  color: var(--primary-color);
+  background-color: rgb(58 127 241);
+  border-radius: 8px;
+  color: #fff;
+  /* font-weight: bold; */
+}
+.active {
+  color: var(--primary-color);
+  background-color: rgb(58 127 241);
+  border-radius: 8px;
+  color: #fff;
+  /* font-weight: bold; */
+}
+.content {
+  /* flex-wrap: wrap; */
+  margin-right: 20px;
+  padding-right: 10px;
+  width: 300px;
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 6px;
+}
+.price {
+}
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column-reverse;
+  }
+  .home .text {
+    text-align: center;
+    padding-bottom: 20px !important;
+  }
+  .home h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .sectionTwo {
+    flex-direction: column;
+    width: 100% !important;
+  }
+  .sectionTwo div {
+    margin-right: 1px !important;
+  }
+  .sectionTwo img {
+    width: 100% !important;
+    margin: auto !important;
+    text-align: center !important;
+  }
+  .catogary {
+    width: 100% !important;
+  }
+  .catogary img {
+    margin-top: -20px !important;
+    width: 100% !important;
+  }
+  .sectionThree {
+  }
+  .sectionThree .box {
+    margin: auto;
+  }
+  .sectionThree .content {
+    margin: auto;
+    margin-bottom: 10px !important;
+  }
+}
